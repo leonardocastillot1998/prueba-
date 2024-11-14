@@ -28,12 +28,12 @@ jobs:
           ls -l
           find .
 
-    - name: Clonando el repositorio
-      uses: actions/checkout@v4
+      - name: Clonando el repositorio
+        uses: actions/checkout@v4
 
       - name: "Paso 1"
         run: |
-          echo "Hola mundo"
+          echo "Hola mundo x"
           hostname
           pwd
           ls -l
